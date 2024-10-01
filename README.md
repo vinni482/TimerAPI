@@ -62,30 +62,24 @@ This endpoint returns the current status of the timer (`Started` or `Finished`) 
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/vinni482/TimerAPI.git
-   cd TimerAPI
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    dotnet restore
    ```
 
-3. Update the connection string in `appsettings.json`:
+2. Update the connection string in `appsettings.json`:
    ```json
    "ConnectionStrings": {
      "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TimerDb;Trusted_Connection=True;"
    }
    ```
 
-4. Apply the database migrations:
+3. Apply the database migrations:
    ```bash
    dotnet ef database update
    ```
 
-5. Run the application:
+4. Run the application:
    ```bash
    dotnet run
    ```

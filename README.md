@@ -58,7 +58,7 @@ This endpoint returns the current status of the timer (`Started` or `Finished`) 
 ### Prerequisites
 
 - [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-- A SQL database (LocalDB or other)
+- SQL database (LocalDB or other)
 
 ### Installation
 

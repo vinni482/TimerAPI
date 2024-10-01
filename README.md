@@ -40,12 +40,11 @@ This endpoint creates a new timer and returns the unique ID of the timer.
   ```json
   {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "status": "Started",
-    "remainingSeconds": 45
+    "timeLeft": 45
   }
   ```
 
-This endpoint returns the current status of the timer (`Started` or `Finished`) and the remaining seconds until expiration. If the time has already expired, it returns `remainingSeconds` as `0`.
+This endpoint returns the current status of the timer (`Started` or `Finished`) and the remaining seconds until expiration. If the time has already expired, it returns `timeLeft` as `0`.
 
 ## How It Works
 
@@ -65,8 +64,8 @@ This endpoint returns the current status of the timer (`Started` or `Finished`) 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/timer-api-service.git
-   cd timer-api-service
+   git clone https://github.com/vinni482/TimerAPI.git
+   cd TimerAPI
    ```
 
 2. Install dependencies:
